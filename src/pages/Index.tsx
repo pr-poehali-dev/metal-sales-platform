@@ -48,14 +48,14 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
-      <div className="fixed left-8 top-1/2 -translate-y-1/2 z-50 writing-mode-vertical">
+      <div className="fixed right-8 top-8 z-50">
         <h1 className="text-6xl font-bold tracking-wider animate-fade-in">
           <span className="text-gold">МЕТАЛЛЫ</span>
           <span className="text-silver">.РУ</span>
         </h1>
       </div>
 
-      <nav className="fixed top-0 right-0 left-32 bg-card/80 backdrop-blur-md border-b border-border z-40">
+      <nav className="fixed top-0 right-0 left-0 bg-card/80 backdrop-blur-md border-b border-border z-40">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex gap-6">
@@ -78,7 +78,7 @@ const Index = () => {
         </div>
       </nav>
 
-      <main className="ml-32 pt-20 p-8">
+      <main className="pt-20 p-8">
         {activeSection === 'home' && (
           <div className="space-y-12 animate-fade-in">
             <section className="container mx-auto">
